@@ -1,0 +1,152 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ASI.ScaleTraining.UI
+</name>
+</assembly>
+<members>
+<member name="M:ASI.ScaleTraining.UI.AccountLocate.Accounts_Load(System.Object,System.EventArgs)">
+	<summary>
+   Handles any initilization and setup.
+ </summary>
+	<param name="sender">
+   Object indicating the sender of the event.
+ </param>
+	<param name="e">
+   Object indicating the arguments of the event.
+ </param>
+	<remarks>
+   None
+ </remarks>
+</member><member name="M:ASI.ScaleTraining.UI.AccountLocate.cmdLocate_Click(System.Object,System.EventArgs)">
+	<summary>
+   Handles clicking the locate button.
+ </summary>
+	<param name="sender">
+   Object indicating the sender of the event.
+ </param>
+	<param name="e">
+   Object indicating the arguments of the event.
+ </param>
+	<remarks>
+   None
+ </remarks>
+</member><member name="M:ASI.ScaleTraining.UI.AccountLocate.cmdPolicies_Click(System.Object,System.EventArgs)">
+	<summary>
+   Handles clicking the policies button.
+ </summary>
+	<param name="sender">
+   Object indicating the sender of the event.
+ </param>
+	<param name="e">
+   Object indicating the arguments of the event.
+ </param>
+	<remarks>
+   None
+ </remarks>
+</member><member name="M:ASI.ScaleTraining.UI.AccountLocate.lvwClients_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+   Handles enabling the area buttons.
+ </summary>
+	<param name="sender">
+   Object indicating the sender of the event.
+ </param>
+	<param name="e">
+   Object indicating the arguments of the event.
+ </param>
+	<remarks>
+   None
+ </remarks>
+</member><member name="T:ASI.ScaleTraining.UI.AccountLocate">
+	<summary>
+   This class contains the AccountLocate UI.
+ </summary>
+	<remarks>
+   None
+ </remarks>
+</member><member name="M:ASI.ScaleTraining.UI.PolicyList.#ctor">
+	<summary>
+   Default constructor (unused).
+ </summary>
+	<remarks>
+   This subroutine is intentionally overriden to be Private so that it cannot be called
+   externally.
+ </remarks>
+</member><member name="M:ASI.ScaleTraining.UI.PolicyList.#ctor(System.Int32,System.String,System.String,System.String)">
+	<summary>
+   Overloaded constructor.
+ </summary>
+	<param name="iEntityID">
+   Integer indicating the client ID backing this list of policies.
+ </param>
+	<param name="sLookupCode">
+   String indicating the lookup code associated with the client ID backing this list
+   of policies.
+ </param>
+	<param name="sUserCode">
+   String indicating the user code to use for security checks.
+ </param>
+	<param name="sUserType">
+   String indicating the type of user, namely U for regular user and E for
+   enterprise user.
+ </param>
+	<remarks>
+   None
+ </remarks>
+</member><member name="M:ASI.ScaleTraining.UI.PolicyList.PolicyList_Load(System.Object,System.EventArgs)">
+	<summary>
+   Handles any initilization and setup.
+ </summary>
+	<param name="sender">
+   Object indicating the sender of the event.
+ </param>
+	<param name="e">
+   Object indicating the arguments of the event.
+ </param>
+	<remarks>
+   None
+ </remarks>
+</member><member name="M:ASI.ScaleTraining.UI.PolicyList.cmdRenew_Click(System.Object,System.EventArgs)">
+	<summary>
+   Handles renewing a policy.
+ </summary>
+	<param name="sender">
+   Object indicating the sender of the event.
+ </param>
+	<param name="e">
+   Object indicating the arguments of the event.
+ </param>
+	<remarks>
+   None
+ </remarks>
+</member><member name="M:ASI.ScaleTraining.UI.PolicyList.lvwPolicies_SelectedIndexChanged(System.Object,System.EventArgs)">
+	<summary>
+   Handles selecting policy and line detail, and enabling the action buttons.
+ </summary>
+	<param name="sender">
+   Object indicating the sender of the event.
+ </param>
+	<param name="e">
+   Object indicating the arguments of the event.
+ </param>
+	<remarks>
+   None
+ </remarks>
+</member><member name="M:ASI.ScaleTraining.UI.PolicyList.PopulateListview">
+	<summary>
+   Populates the listview with policies.
+ </summary>
+	<remarks>
+   None
+ </remarks>
+</member><member name="T:ASI.ScaleTraining.UI.PolicyList">
+	<summary>
+   This class contains the PolicyList UI.
+ </summary>
+	<remarks>
+   None
+ </remarks>
+</member>
+</members>
+</doc>

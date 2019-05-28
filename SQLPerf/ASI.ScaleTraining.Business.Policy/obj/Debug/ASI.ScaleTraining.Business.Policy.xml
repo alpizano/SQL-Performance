@@ -1,0 +1,162 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ASI.ScaleTraining.Business.Policy
+</name>
+</assembly>
+<members>
+<member name="T:ASI.ScaleTraining.Business.Policy.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ASI.ScaleTraining.Business.Policy.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ASI.ScaleTraining.Business.Policy.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:ASI.ScaleTraining.Business.Policy.Policy">
+ <summary>
+   This class implements the business layer for policies.
+ </summary>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Business.Policy.Policy.daPolicy">
+ <summary>
+   Since business objects are supposed to be stateless, this property eliminates
+   the need to hold a private class-level data access object or to create one
+   on-the-fly in every function requiring one.
+ </summary>
+ <value>
+   New instance of the data access class.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Business.Policy.Policy.Find(System.Int32)">
+ <summary>
+   Retrieves a list of policies matching a client ID.
+ </summary>
+ <param name="iEntityID">
+   Integer containing the client ID.
+ </param>
+ <returns>
+   Collection of policy objects representing the results of the search.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Business.Policy.Policy.FindPolicyDetail(System.Int32)">
+ <summary>
+   Retrieves policy detail information matching a line ID.
+ </summary>
+ <param name="iLineID">
+   Integer containing the line ID.
+ </param>
+ <returns>
+   Policy detail object.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Business.Policy.Policy.FindLineDetail(System.Int32)">
+ <summary>
+   Retrieves line detail information matching a line ID.
+ </summary>
+ <param name="iLineID">
+   Integer containing the line ID.
+ </param>
+ <returns>
+   Line detail object.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Business.Policy.Policy.Renew(System.Int32)">
+ <summary>
+   Renews a policy.
+ </summary>
+ <param name="iPolicyID">
+   Integer containing the policy ID.
+ </param>
+ <returns>
+   Boolean value indicating if the renewal was successful or not.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Business.Policy.Policy.CheckPolicySecurity(System.Int32,System.String)">
+ <summary>
+   Determines if a particular user has rights to view a particular policy.
+ </summary>
+ <param name="iPolicyID">
+   Integer containing the policy ID.
+ </param>
+ <param name="sUserCode">
+   String containing the user code.
+ </param>
+ <returns>
+   Boolean indicating if the user can view the policy.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Business.Policy.Policy.PopulateDataObject(System.Data.DataTable)">
+ <summary>
+   Translates a DataTable containing SQL records into a collection of policy objects.
+ </summary>
+ <param name="oDataTable">
+   DataTable containing rows to be translated into policy objects.
+ </param>
+ <returns>
+   Collection of policy objects.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Business.Policy.Policy.PopulateDataObjectPolicyDetail(System.Data.DataTable)">
+ <summary>
+   Translates a DataTable containing a SQL record into a policy detail object.
+ </summary>
+ <param name="oDataTable">
+   DataTable containing a row to be translated into a policy detail object.
+ </param>
+ <returns>
+   Policy detail object.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Business.Policy.Policy.PopulateDataObjectLineDetail(System.Data.DataTable)">
+ <summary>
+   Translates a DataTable containing a SQL record into a line detail object.
+ </summary>
+ <param name="oDataTable">
+   DataTable containing a row to be translated into a line detail object.
+ </param>
+ <returns>
+   Line detail object.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ASI.ScaleTraining.DataAccess.Client
+</name>
+</assembly>
+<members>
+<member name="T:ASI.ScaleTraining.DataAccess.Client.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ASI.ScaleTraining.DataAccess.Client.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ASI.ScaleTraining.DataAccess.Client.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:ASI.ScaleTraining.DataAccess.Client.Client">
+ <summary>
+   This class implements the data access layer for clients.
+ </summary>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.DataAccess.Client.Client.FetchByAccountNameBeginsWith(System.String)">
+ <summary>
+   Queries the database for a list of clients based on a complete or partial account name.
+ </summary>
+ <param name="sValue">
+   String containing the account name.
+ </param>
+ <returns>
+   DataTable containing a collection of matching clients.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.DataAccess.Client.Client.FetchByAccountNameContains(System.String)">
+ <summary>
+   Queries the database for a list of clients based on a complete or partial account name.
+ </summary>
+ <param name="sValue">
+   String containing the account name.
+ </param>
+ <returns>
+   DataTable containing a collection of matching clients.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.DataAccess.Client.Client.FetchByLookupCodeBeginsWith(System.String)">
+ <summary>
+   Queries the database for a list of clients based on a complete or partial lookup code.
+ </summary>
+ <param name="sValue">
+   String containing the lookup code.
+ </param>
+ <returns>
+   DataTable containing a collection of matching clients.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.DataAccess.Client.Client.FetchByLookupCodeContains(System.String)">
+ <summary>
+   Queries the database for a list of clients based on a complete or partial lookup code.
+ </summary>
+ <param name="sValue">
+   String containing the lookup code.
+ </param>
+ <returns>
+   DataTable containing a collection of matching clients.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.DataAccess.Client.Client.Fetch(System.String)">
+ <summary>
+   Queries the database for a list of clients based on an arbitrary WHERE clause.
+ </summary>
+ <param name="sWhereClause">
+   String containing the WHERE clause.
+ </param>
+ <returns>
+   DataTable containing a collection of matching clients.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.DataAccess.Client.Client.CheckLoginSecurity(System.String)">
+ <summary>
+   Determines the type code of a particular user code.
+ </summary>
+ <param name="sUserCode">
+   String containing the user code.
+ </param>
+ <returns>
+   DataTable containing a single record with one column representing the
+   type code of the user, or no records if the user does not exist.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+</members>
+</doc>

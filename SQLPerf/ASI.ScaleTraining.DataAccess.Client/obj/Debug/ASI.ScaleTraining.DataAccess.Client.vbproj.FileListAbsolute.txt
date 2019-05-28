@@ -1,0 +1,31 @@
+M:\PMG 72046\ASI.ScaleTraining.DataAccess.Client\obj\Debug\ResolveAssemblyReference.cache
+M:\PMG 72046\ASI.ScaleTraining.DataAccess.Client\obj\Debug\ASI.ScaleTraining.DataAccess.Client.Resources.resources
+M:\PMG 72046\ASI.ScaleTraining.DataAccess.Client\obj\Debug\ASI.ScaleTraining.DataAccess.Client.vbproj.GenerateResource.Cache
+M:\PMG 72046\ASI.ScaleTraining.DataAccess.Client\bin\Debug\ASI.ScaleTraining.DataAccess.Client.dll
+M:\PMG 72046\ASI.ScaleTraining.DataAccess.Client\bin\Debug\ASI.ScaleTraining.DataAccess.Client.pdb
+M:\PMG 72046\ASI.ScaleTraining.DataAccess.Client\bin\Debug\ASI.ScaleTraining.DataAccess.Client.xml
+M:\PMG 72046\ASI.ScaleTraining.DataAccess.Client\obj\Debug\ASI.ScaleTraining.DataAccess.Client.dll
+M:\PMG 72046\ASI.ScaleTraining.DataAccess.Client\obj\Debug\ASI.ScaleTraining.DataAccess.Client.xml
+M:\PMG 72046\ASI.ScaleTraining.DataAccess.Client\obj\Debug\ASI.ScaleTraining.DataAccess.Client.pdb
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.DataAccess.Client\obj\Debug\ASI.ScaleTraining.DataAccess.Client.Resources.resources
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.DataAccess.Client\obj\Debug\ASI.ScaleTraining.DataAccess.Client.vbproj.GenerateResource.Cache
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.DataAccess.Client\obj\Debug\ASI.ScaleTraining.DataAccess.Client.dll
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.DataAccess.Client\obj\Debug\ASI.ScaleTraining.DataAccess.Client.xml
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.DataAccess.Client\obj\Debug\ASI.ScaleTraining.DataAccess.Client.pdb
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.DataAccess.Client\bin\Debug\ASI.ScaleTraining.DataAccess.Client.dll
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.DataAccess.Client\bin\Debug\ASI.ScaleTraining.DataAccess.Client.pdb
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.DataAccess.Client\bin\Debug\ASI.ScaleTraining.DataAccess.Client.xml
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.DataAccess.Client\obj\Debug\ASI.ScaleTraining.DataAccess.Client.vbprojResolveAssemblyReference.cache
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Client\bin\Debug\ASI.ScaleTraining.DataAccess.Client.dll
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Client\bin\Debug\ASI.ScaleTraining.DataAccess.Client.pdb
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Client\bin\Debug\ASI.ScaleTraining.DataAccess.Client.xml
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Client\bin\Debug\ASI.ScaleTraining.DataAccess.Common.dll
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Client\bin\Debug\ASI.ScaleTraining.DataAccess.Common.pdb
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Client\obj\Debug\ASI.ScaleTraining.DataAccess.Client.vbprojAssemblyReference.cache
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Client\obj\Debug\ASI.ScaleTraining.DataAccess.Client.Resources.resources
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Client\obj\Debug\ASI.ScaleTraining.DataAccess.Client.vbproj.GenerateResource.cache
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Client\obj\Debug\ASI.ScaleTraining.DataAccess.Client.vbproj.CoreCompileInputs.cache
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Client\obj\Debug\ASI.ScaleTraining.DataAccess.Client.vbproj.CopyComplete
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Client\obj\Debug\ASI.ScaleTraining.DataAccess.Client.dll
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Client\obj\Debug\ASI.ScaleTraining.DataAccess.Client.xml
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Client\obj\Debug\ASI.ScaleTraining.DataAccess.Client.pdb

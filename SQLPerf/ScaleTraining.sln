@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ASI.ScaleTraining.Business.Client", "ASI.ScaleTraining.Business.Client\ASI.ScaleTraining.Business.Client.vbproj", "{D8B45E70-8F39-4F27-B9D3-E0D934826088}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ASI.ScaleTraining.Business.Policy", "ASI.ScaleTraining.Business.Policy\ASI.ScaleTraining.Business.Policy.vbproj", "{999F04F4-85B5-490F-B495-DF9EDAF54048}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ASI.ScaleTraining.Data.Client", "ASI.ScaleTraining.Data.Client\ASI.ScaleTraining.Data.Client.vbproj", "{742D5DF3-EE5D-4A69-BCD5-ECEEF1E4C845}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ASI.ScaleTraining.Data.Policy", "ASI.ScaleTraining.Data.Policy\ASI.ScaleTraining.Data.Policy.vbproj", "{9E229BD5-AFB1-4EC5-98BA-D3CDBC5ED7D8}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ASI.ScaleTraining.DataAccess.Client", "ASI.ScaleTraining.DataAccess.Client\ASI.ScaleTraining.DataAccess.Client.vbproj", "{7BD4F6FF-1E75-47AB-9F53-4593F0D5AFE5}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ASI.ScaleTraining.DataAccess.Common", "ASI.ScaleTraining.DataAccess.Common\ASI.ScaleTraining.DataAccess.Common.vbproj", "{9E4EBD58-3096-496E-9756-E8B08E979CE0}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ASI.ScaleTraining.DataAccess.Policy", "ASI.ScaleTraining.DataAccess.Policy\ASI.ScaleTraining.DataAccess.Policy.vbproj", "{62B79850-A855-4D78-B75C-3C79EE610932}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ASI.ScaleTraining.UI", "ASI.ScaleTraining.UI\ASI.ScaleTraining.UI.vbproj", "{A839A174-6925-4DAB-8666-51FAA22DB92B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8B45E70-8F39-4F27-B9D3-E0D934826088}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8B45E70-8F39-4F27-B9D3-E0D934826088}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8B45E70-8F39-4F27-B9D3-E0D934826088}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8B45E70-8F39-4F27-B9D3-E0D934826088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{999F04F4-85B5-490F-B495-DF9EDAF54048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{999F04F4-85B5-490F-B495-DF9EDAF54048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{999F04F4-85B5-490F-B495-DF9EDAF54048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{999F04F4-85B5-490F-B495-DF9EDAF54048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{742D5DF3-EE5D-4A69-BCD5-ECEEF1E4C845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{742D5DF3-EE5D-4A69-BCD5-ECEEF1E4C845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{742D5DF3-EE5D-4A69-BCD5-ECEEF1E4C845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{742D5DF3-EE5D-4A69-BCD5-ECEEF1E4C845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E229BD5-AFB1-4EC5-98BA-D3CDBC5ED7D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E229BD5-AFB1-4EC5-98BA-D3CDBC5ED7D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E229BD5-AFB1-4EC5-98BA-D3CDBC5ED7D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E229BD5-AFB1-4EC5-98BA-D3CDBC5ED7D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD4F6FF-1E75-47AB-9F53-4593F0D5AFE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD4F6FF-1E75-47AB-9F53-4593F0D5AFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD4F6FF-1E75-47AB-9F53-4593F0D5AFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD4F6FF-1E75-47AB-9F53-4593F0D5AFE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E4EBD58-3096-496E-9756-E8B08E979CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4EBD58-3096-496E-9756-E8B08E979CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4EBD58-3096-496E-9756-E8B08E979CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4EBD58-3096-496E-9756-E8B08E979CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62B79850-A855-4D78-B75C-3C79EE610932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62B79850-A855-4D78-B75C-3C79EE610932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62B79850-A855-4D78-B75C-3C79EE610932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62B79850-A855-4D78-B75C-3C79EE610932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A839A174-6925-4DAB-8666-51FAA22DB92B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A839A174-6925-4DAB-8666-51FAA22DB92B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A839A174-6925-4DAB-8666-51FAA22DB92B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A839A174-6925-4DAB-8666-51FAA22DB92B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8140742D-C6AC-41F3-9D12-655D063CA71C}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs-app1:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ASI.ScaleTraining.Business.Client\\ASI.ScaleTraining.Business.Client.vbproj
+		SccProjectName1 = ASI.ScaleTraining.Business.Client
+		SccLocalPath1 = ASI.ScaleTraining.Business.Client
+		SccProjectUniqueName2 = ASI.ScaleTraining.Business.Policy\\ASI.ScaleTraining.Business.Policy.vbproj
+		SccProjectName2 = ASI.ScaleTraining.Business.Policy
+		SccLocalPath2 = ASI.ScaleTraining.Business.Policy
+		SccProjectUniqueName3 = ASI.ScaleTraining.Data.Client\\ASI.ScaleTraining.Data.Client.vbproj
+		SccProjectName3 = ASI.ScaleTraining.Data.Client
+		SccLocalPath3 = ASI.ScaleTraining.Data.Client
+		SccProjectUniqueName4 = ASI.ScaleTraining.Data.Policy\\ASI.ScaleTraining.Data.Policy.vbproj
+		SccProjectName4 = ASI.ScaleTraining.Data.Policy
+		SccLocalPath4 = ASI.ScaleTraining.Data.Policy
+		SccProjectUniqueName5 = ASI.ScaleTraining.DataAccess.Client\\ASI.ScaleTraining.DataAccess.Client.vbproj
+		SccProjectName5 = ASI.ScaleTraining.DataAccess.Client
+		SccLocalPath5 = ASI.ScaleTraining.DataAccess.Client
+		SccProjectUniqueName6 = ASI.ScaleTraining.DataAccess.Common\\ASI.ScaleTraining.DataAccess.Common.vbproj
+		SccProjectName6 = ASI.ScaleTraining.DataAccess.Common
+		SccLocalPath6 = ASI.ScaleTraining.DataAccess.Common
+		SccProjectUniqueName7 = ASI.ScaleTraining.DataAccess.Policy\\ASI.ScaleTraining.DataAccess.Policy.vbproj
+		SccProjectName7 = ASI.ScaleTraining.DataAccess.Policy
+		SccLocalPath7 = ASI.ScaleTraining.DataAccess.Policy
+		SccProjectUniqueName8 = ASI.ScaleTraining.UI\\ASI.ScaleTraining.UI.vbproj
+		SccProjectName8 = ASI.ScaleTraining.UI
+		SccLocalPath8 = ASI.ScaleTraining.UI
+	EndGlobalSection
+EndGlobal

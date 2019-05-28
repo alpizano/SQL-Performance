@@ -1,0 +1,217 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ASI.ScaleTraining.Data.Client
+</name>
+</assembly>
+<members>
+<member name="T:ASI.ScaleTraining.Data.Client.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Client.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Client.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:ASI.ScaleTraining.Data.Client.Client">
+ <summary>
+   This class implements the data layer for clients.
+ </summary>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Data.Client.Client.#ctor(System.Int32,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+   Parameterized constructor.
+ </summary>
+ <param name="iEntityID">
+   Integer indicating the client's ID value.
+ </param>
+ <param name="sLookupCode">
+   String indicating the client's lookup code.
+ </param>
+ <param name="sAccountName">
+   String indicating the client's account name.
+ </param>
+ <param name="fActive">
+   Boolean indicating if the client is active.
+ </param>
+ <param name="sAddress1">
+   String indicating the client's address1.
+ </param>
+ <param name="sAddress2">
+   String indicating the client's address2.
+ </param>
+ <param name="sCity">
+   String indicating the client's city.
+ </param>
+ <param name="sState">
+   String indicating the client's state.
+ </param>
+ <param name="sZip">
+   String indicating the client's zip code.
+ </param>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Data.Client.Client.#ctor">
+ <summary>
+   Default constructor.
+ </summary>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Client.Client.EntityID">
+ <summary>
+   This property indicates the value of the client's ID.
+ </summary>
+ <value>
+   Integer containing the client's ID.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Client.Client.LookupCode">
+ <summary>
+   This property indicates the value of the client's lookup code.
+ </summary>
+ <value>
+   String containing the client's lookup code.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Client.Client.AccountName">
+ <summary>
+   This property indicates the value of the client's account name.
+ </summary>
+ <value>
+   String containing the client's account name.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Client.Client.Active">
+ <summary>
+   This property indicates the value of the client's active status.
+ </summary>
+ <value>
+   Boolean containing the client's active status.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Client.Client.Address1">
+ <summary>
+   This property indicates the value of the client's address1.
+ </summary>
+ <value>
+   String containing the client's address1.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Client.Client.Address2">
+ <summary>
+   This property indicates the value of the client's address2.
+ </summary>
+ <value>
+   String containing the client's address2.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Client.Client.City">
+ <summary>
+   This property indicates the value of the client's city.
+ </summary>
+ <value>
+   String containing the client's city.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Client.Client.State">
+ <summary>
+   This property indicates the value of the client's state.
+ </summary>
+ <value>
+   String containing the client's state.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Client.Client.Zip">
+ <summary>
+   This property indicates the value of the client's zip code.
+ </summary>
+ <value>
+   String containing the client's zip code.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="T:ASI.ScaleTraining.Data.Client.Clients">
+ <summary>
+   This class implements the data layer collection for clients.
+ </summary>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Data.Client.Clients.#ctor">
+ <summary>
+   Default constructor.
+ </summary>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Client.Clients.ItemByID(System.Int32)">
+ <summary>
+   Exposes a client specified by an ID.
+ </summary>
+ <param name="iEntityID">
+   Integer indicating the ID of the desired client.
+ </param>
+ <value>
+   Client class containing the desired client.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Data.Client.Clients.RemoveByID(System.Int32)">
+ <summary>
+   Removes a client specified by an ID.
+ </summary>
+ <param name="iEntityID">
+   Integer indicating the ID of the desired client.
+ </param>
+ <remarks>
+   None
+ </remarks>
+</member>
+</members>
+</doc>

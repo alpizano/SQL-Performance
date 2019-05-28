@@ -1,0 +1,133 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ASI.ScaleTraining.Business.Client
+</name>
+</assembly>
+<members>
+<member name="T:ASI.ScaleTraining.Business.Client.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ASI.ScaleTraining.Business.Client.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ASI.ScaleTraining.Business.Client.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:ASI.ScaleTraining.Business.Client.Client">
+ <summary>
+   This class implements the business layer for clients.
+ </summary>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Business.Client.Client.daClient">
+ <summary>
+   Since business objects are supposed to be stateless, this property eliminates
+   the need to hold a private class-level data access object or to create one
+   on-the-fly in every function requiring one.
+ </summary>
+ <value>
+   New instance of the data access class.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Business.Client.Client.FindByAccountNameBeginsWith(System.String)">
+ <summary>
+   Retrieves a list of clients matching the search criteria.
+ </summary>
+ <param name="sValue">
+   String containing the value to search on.
+ </param>
+ <returns>
+   Collection of client objects representing the results of the search.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Business.Client.Client.FindByAccountNameContains(System.String)">
+ <summary>
+   Retrieves a list of clients matching the search criteria.
+ </summary>
+ <param name="sValue">
+   String containing the value to search on.
+ </param>
+ <returns>
+   Collection of client objects representing the results of the search.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Business.Client.Client.FindByLookupCodeBeginsWith(System.String)">
+ <summary>
+   Retrieves a list of clients matching the search criteria.
+ </summary>
+ <param name="sValue">
+   String containing the value to search on.
+ </param>
+ <returns>
+   Collection of client objects representing the results of the search.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Business.Client.Client.FindByLookupCodeContains(System.String)">
+ <summary>
+   Retrieves a list of clients matching the search criteria.
+ </summary>
+ <param name="sValue">
+   String containing the value to search on.
+ </param>
+ <returns>
+   Collection of client objects representing the results of the search.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Business.Client.Client.CheckLoginSecurity(System.String)">
+ <summary>
+   Determines the type code of a particular user code.
+ </summary>
+ <param name="sUserCode">
+   String containing the user code.
+ </param>
+ <returns>
+   U - Regular User
+   E - Enterprise Admin
+   X - Invalid UserCode
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Business.Client.Client.PopulateDataObject(System.Data.DataTable)">
+ <summary>
+   Translates a DataTable containing SQL records into a collection of client objects.
+ </summary>
+ <param name="oDataTable">
+   DataTable containing rows to be translated into client objects.
+ </param>
+ <returns>
+   Collection of client objects.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+</members>
+</doc>
