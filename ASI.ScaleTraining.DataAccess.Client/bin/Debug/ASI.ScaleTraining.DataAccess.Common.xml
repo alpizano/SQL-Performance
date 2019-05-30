@@ -1,0 +1,87 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ASI.ScaleTraining.DataAccess.Common
+</name>
+</assembly>
+<members>
+<member name="T:ASI.ScaleTraining.DataAccess.Common.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ASI.ScaleTraining.DataAccess.Common.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ASI.ScaleTraining.DataAccess.Common.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:ASI.ScaleTraining.DataAccess.Common.Common">
+ <summary>
+   This class provides a common access point for all DB queries.
+ </summary>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.DataAccess.Common.Common.ExecuteDataTable(System.String)">
+ <summary>
+   Returns a DataTable containing the results of a query.
+ </summary>
+ <param name="sSQL">
+   String indicating the query to issue.
+ </param>
+ <returns>
+   DataTable containing the results of the query.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.DataAccess.Common.Common.ExecuteCommand(System.String)">
+ <summary>
+   Executes a SQL command on the database.
+ </summary>
+ <param name="sSQL">
+   String indicating the command to issue.
+ </param>
+ <returns>
+   Integer indicating the number of rows affected.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.DataAccess.Common.Common.ToDBString(System.String)">
+ <summary>
+   Makes an input string safe to be used in a database query.
+ </summary>
+ <param name="sValue">
+   String containing the value to be sanitized.
+ </param>
+ <returns>
+   String containing the sanitized, database-safe value.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.DataAccess.Common.Common.GetConnectionString">
+ <summary>
+   Reads a text file containing the DB information.
+ </summary>
+ <returns>
+   String containing the connection string.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+</members>
+</doc>

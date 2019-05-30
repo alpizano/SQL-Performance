@@ -1,0 +1,40 @@
+\\Dev-fs-1\technology\SourceBackup\SystemDev\SHeadric\PMG 72046\ASI.ScaleTraining.DataAccess.Policy\bin\Debug\ASI.ScaleTraining.DataAccess.Policy.dll
+\\Dev-fs-1\technology\SourceBackup\SystemDev\SHeadric\PMG 72046\ASI.ScaleTraining.DataAccess.Policy\bin\Debug\ASI.ScaleTraining.DataAccess.Policy.pdb
+\\Dev-fs-1\technology\SourceBackup\SystemDev\SHeadric\PMG 72046\ASI.ScaleTraining.DataAccess.Policy\bin\Debug\ASI.ScaleTraining.DataAccess.Policy.xml
+\\Dev-fs-1\technology\SourceBackup\SystemDev\SHeadric\PMG 72046\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ResolveAssemblyReference.cache
+\\Dev-fs-1\technology\SourceBackup\SystemDev\SHeadric\PMG 72046\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ASI.ScaleTraining.DataAccess.Policy.Resources.resources
+\\Dev-fs-1\technology\SourceBackup\SystemDev\SHeadric\PMG 72046\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ASI.ScaleTraining.DataAccess.Policy.vbproj.GenerateResource.Cache
+\\Dev-fs-1\technology\SourceBackup\SystemDev\SHeadric\PMG 72046\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ASI.ScaleTraining.DataAccess.Policy.dll
+\\Dev-fs-1\technology\SourceBackup\SystemDev\SHeadric\PMG 72046\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ASI.ScaleTraining.DataAccess.Policy.xml
+\\Dev-fs-1\technology\SourceBackup\SystemDev\SHeadric\PMG 72046\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ASI.ScaleTraining.DataAccess.Policy.pdb
+M:\PMG 72046\ASI.ScaleTraining.DataAccess.Policy\bin\Debug\ASI.ScaleTraining.DataAccess.Policy.dll
+M:\PMG 72046\ASI.ScaleTraining.DataAccess.Policy\bin\Debug\ASI.ScaleTraining.DataAccess.Policy.pdb
+M:\PMG 72046\ASI.ScaleTraining.DataAccess.Policy\bin\Debug\ASI.ScaleTraining.DataAccess.Policy.xml
+M:\PMG 72046\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ResolveAssemblyReference.cache
+M:\PMG 72046\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ASI.ScaleTraining.DataAccess.Policy.Resources.resources
+M:\PMG 72046\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ASI.ScaleTraining.DataAccess.Policy.vbproj.GenerateResource.Cache
+M:\PMG 72046\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ASI.ScaleTraining.DataAccess.Policy.dll
+M:\PMG 72046\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ASI.ScaleTraining.DataAccess.Policy.xml
+M:\PMG 72046\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ASI.ScaleTraining.DataAccess.Policy.pdb
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.DataAccess.Policy\bin\Debug\ASI.ScaleTraining.DataAccess.Policy.dll
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.DataAccess.Policy\bin\Debug\ASI.ScaleTraining.DataAccess.Policy.pdb
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.DataAccess.Policy\bin\Debug\ASI.ScaleTraining.DataAccess.Policy.xml
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ASI.ScaleTraining.DataAccess.Policy.vbprojResolveAssemblyReference.cache
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ASI.ScaleTraining.DataAccess.Policy.Resources.resources
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ASI.ScaleTraining.DataAccess.Policy.vbproj.GenerateResource.Cache
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ASI.ScaleTraining.DataAccess.Policy.dll
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ASI.ScaleTraining.DataAccess.Policy.xml
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ASI.ScaleTraining.DataAccess.Policy.pdb
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Policy\bin\Debug\ASI.ScaleTraining.DataAccess.Policy.dll
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Policy\bin\Debug\ASI.ScaleTraining.DataAccess.Policy.pdb
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Policy\bin\Debug\ASI.ScaleTraining.DataAccess.Policy.xml
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Policy\bin\Debug\ASI.ScaleTraining.DataAccess.Common.dll
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Policy\bin\Debug\ASI.ScaleTraining.DataAccess.Common.pdb
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Policy\bin\Debug\ASI.ScaleTraining.DataAccess.Common.xml
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ASI.ScaleTraining.DataAccess.Policy.Resources.resources
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ASI.ScaleTraining.DataAccess.Policy.vbproj.GenerateResource.cache
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ASI.ScaleTraining.DataAccess.Policy.vbproj.CoreCompileInputs.cache
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ASI.ScaleTraining.DataAccess.Policy.vbproj.CopyComplete
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ASI.ScaleTraining.DataAccess.Policy.dll
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ASI.ScaleTraining.DataAccess.Policy.xml
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.DataAccess.Policy\obj\Debug\ASI.ScaleTraining.DataAccess.Policy.pdb

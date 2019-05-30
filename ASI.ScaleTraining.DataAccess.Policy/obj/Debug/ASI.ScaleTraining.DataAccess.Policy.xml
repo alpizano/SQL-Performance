@@ -1,0 +1,113 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ASI.ScaleTraining.DataAccess.Policy
+</name>
+</assembly>
+<members>
+<member name="T:ASI.ScaleTraining.DataAccess.Policy.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ASI.ScaleTraining.DataAccess.Policy.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ASI.ScaleTraining.DataAccess.Policy.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:ASI.ScaleTraining.DataAccess.Policy.Policy">
+ <summary>
+   This class implements the data access layer for policies.
+ </summary>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.DataAccess.Policy.Policy.Fetch(System.Int32)">
+ <summary>
+   Queries the database for a list of policies based on a client ID.
+ </summary>
+ <param name="iEntityID">
+   Integer containing the client ID.
+ </param>
+ <returns>
+   DataTable containing a collection of matching policies.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.DataAccess.Policy.Policy.FetchPolicyDetail(System.Int32)">
+ <summary>
+   Queries the database for detail information based on a line ID.
+ </summary>
+ <param name="iLineID">
+   Integer containing the line ID.
+ </param>
+ <returns>
+   DataTable containing the detail information.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.DataAccess.Policy.Policy.FetchLineDetail(System.Int32)">
+ <summary>
+   Queries the database for detail information based on a line ID.
+ </summary>
+ <param name="iLineID">
+   Integer containing the line ID.
+ </param>
+ <returns>
+   DataTable containing the detail information.
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.DataAccess.Policy.Policy.Renew(System.Int32)">
+ <summary>
+   Renews a policy by changing the effective date to today and changing
+   the expiration date to match the current policy term length.  As an example,
+   a policy that is currently six months long would be updated to have an
+   effective date of today and an expiration date of six months in the future.
+ </summary>
+ <param name="iPolicyID">
+   Integer containing the policy ID.
+ </param>
+ <returns>
+   Boolean value indicating if the renewal was successful or not.
+ </returns>
+ <remarks>
+   This function omits many steps required to renew a policy, but it
+   illustrates the concept of a renewal by updating the effective and
+   expiration dates.
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.DataAccess.Policy.Policy.CheckPolicySecurity(System.Int32,System.String)">
+ <summary>
+   Determines if a particular user has rights to view a particular policy.
+ </summary>
+ <param name="iPolicyID">
+   Integer containing the policy ID.
+ </param>
+ <param name="sUserCode">
+   String containing the user code.
+ </param>
+ <returns>
+   DataTable containing a single record with one column representing either
+   True (1) or False (0).
+ </returns>
+ <remarks>
+   None
+ </remarks>
+</member>
+</members>
+</doc>

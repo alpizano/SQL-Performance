@@ -1,0 +1,765 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ASI.ScaleTraining.Data.Policy
+</name>
+</assembly>
+<members>
+<member name="T:ASI.ScaleTraining.Data.Policy.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:ASI.ScaleTraining.Data.Policy.ComboDetail">
+ <summary>
+   This class implements the data layer for combo detail.
+ </summary>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Data.Policy.ComboDetail.#ctor">
+ <summary>
+   Default constructor.
+ </summary>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.ComboDetail.LineID">
+ <summary>
+   This property indicates the value of the policy's line ID.
+ </summary>
+ <value>
+   Integer containing the policy's line ID.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.ComboDetail.StatusDescription">
+ <summary>
+   This property indicates the value of the policy's status description.
+ </summary>
+ <value>
+   String containing the policy's status description.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.ComboDetail.Effective">
+ <summary>
+   This property indicates the value of the policy's effective date.
+ </summary>
+ <value>
+   Date containing the policy's effective date.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.ComboDetail.Expiration">
+ <summary>
+   This property indicates the value of the policy's expiration date.
+ </summary>
+ <value>
+   Date containing the policy's expiration date.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.ComboDetail.PolicyNumber">
+ <summary>
+   This property indicates the value of the policy's policy number.
+ </summary>
+ <value>
+   String containing the policy's policy number.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.ComboDetail.PolicyDescription">
+ <summary>
+   This property indicates the value of the policy's policy description.
+ </summary>
+ <value>
+   String containing the policy's policy description.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.ComboDetail.LineType">
+ <summary>
+   This property indicates the value of the policy's line type.
+ </summary>
+ <value>
+   String containing the policy's line type.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.ComboDetail.FormCategory">
+ <summary>
+   This property indicates the value of the policy's form category.
+ </summary>
+ <value>
+   String containing the policy's form category.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.ComboDetail.BillingCompany">
+ <summary>
+   This property indicates the value of the policy's billing company.
+ </summary>
+ <value>
+   String containing the policy's billing company.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.ComboDetail.IssuingCompany">
+ <summary>
+   This property indicates the value of the policy's issuing company.
+ </summary>
+ <value>
+   String containing the policy's issuing company.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.ComboDetail.IssuingState">
+ <summary>
+   This property indicates the value of the policy's issuing state.
+ </summary>
+ <value>
+   String containing the policy's issuing state.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.ComboDetail.PolicyID">
+ <summary>
+   This property indicates the value of the policy's policy ID.
+ </summary>
+ <value>
+   Integer containing the policy's policy ID.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.ComboDetail.BilledCommission">
+ <summary>
+   This property indicates the value of the policy's billed commission.
+ </summary>
+ <value>
+   Double containing the policy's billed commission.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.ComboDetail.BilledPremium">
+ <summary>
+   This property indicates the value of the policy's billed premium.
+ </summary>
+ <value>
+   Double containing the policy's billed premium.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.ComboDetail.AnnualizedCommission">
+ <summary>
+   This property indicates the value of the policy's annualized commission.
+ </summary>
+ <value>
+   Double containing the policy's annualized commission.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.ComboDetail.AnnualizedPremium">
+ <summary>
+   This property indicates the value of the policy's annualized premium.
+ </summary>
+ <value>
+   Double containing the policy's annualized premium.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="T:ASI.ScaleTraining.Data.Policy.LineDetail">
+ <summary>
+   This class implements the data layer for line detail.
+ </summary>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Data.Policy.LineDetail.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+   Parameterized constructor.
+ </summary>
+ <param name="iLineID">
+   Integer indicating the policy's line ID value.
+ </param>
+ <param name="sLineType">
+   String indicating the policy's line type.
+ </param>
+ <param name="sFormCategory">
+   String indicating the policy's form category.
+ </param>
+ <param name="sBillToContactName">
+   String indicating the policy's bill to contact name.
+ </param>
+ <param name="sBillToAddress1">
+   String indicating the policy's bill to address1.
+ </param>
+ <param name="sBillToAddress2">
+   String indicating the policy's bill to address2.
+ </param>
+ <param name="sBillToAddress3">
+   String indicating the policy's bill to address3.
+ </param>
+ <param name="sBillToCity">
+   String indicating the policy's bill to city.
+ </param>
+ <param name="sBillToState">
+   String indicating the policy's bill to state.
+ </param>
+ <param name="sBillToPostalCode">
+   String indicating the policy's bill to postal code.
+ </param>
+ <param name="sBillToCounty">
+   String indicating the policy's bill to county.
+ </param>
+ <param name="sBillToCountryCode">
+   String indicating the policy's bill to country code.
+ </param>
+ <param name="sEmail">
+   String indicating the policy's email.
+ </param>
+ <param name="sFax">
+   String indicating the policy's fax.
+ </param>
+ <param name="sFaxExtension">
+   String indicating the policy's fax extension.
+ </param>
+ <param name="sBillingCompany">
+   String indicating the policy's billing company.
+ </param>
+ <param name="sIssuingCompany">
+   String indicating the policy's issuing company.
+ </param>
+ <param name="sIssuingState">
+   String indicating the policy's issuing state.
+ </param>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Data.Policy.LineDetail.#ctor">
+ <summary>
+   Default constructor.
+ </summary>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.LineDetail.LineID">
+ <summary>
+   This property indicates the value of the policy's line ID.
+ </summary>
+ <value>
+   Integer containing the policy's line ID.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.LineDetail.LineType">
+ <summary>
+   This property indicates the value of the policy's line type.
+ </summary>
+ <value>
+   String containing the policy's line type.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.LineDetail.FormCategory">
+ <summary>
+   This property indicates the value of the policy's form category.
+ </summary>
+ <value>
+   String containing the policy's form category.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.LineDetail.BillToContactName">
+ <summary>
+   This property indicates the value of the policy's bill to contact name.
+ </summary>
+ <value>
+   String containing the policy's bill to contact name.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.LineDetail.BillToAddress1">
+ <summary>
+   This property indicates the value of the policy's bill to address1.
+ </summary>
+ <value>
+   String containing the policy's bill to address1.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.LineDetail.BillToAddress2">
+ <summary>
+   This property indicates the value of the policy's bill to address2.
+ </summary>
+ <value>
+   String containing the policy's bill to address2.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.LineDetail.BillToAddress3">
+ <summary>
+   This property indicates the value of the policy's bill to address3.
+ </summary>
+ <value>
+   String containing the policy's bill to address3.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.LineDetail.BillToCity">
+ <summary>
+   This property indicates the value of the policy's bill to city.
+ </summary>
+ <value>
+   String containing the policy's bill to city.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.LineDetail.BillToState">
+ <summary>
+   This property indicates the value of the policy's bill to state.
+ </summary>
+ <value>
+   String containing the policy's bill to state.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.LineDetail.BillToPostalCode">
+ <summary>
+   This property indicates the value of the policy's bill to postal code.
+ </summary>
+ <value>
+   String containing the policy's bill to postal code.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.LineDetail.BillToCounty">
+ <summary>
+   This property indicates the value of the policy's bill to county.
+ </summary>
+ <value>
+   String containing the policy's bill to county.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.LineDetail.BillToCountryCode">
+ <summary>
+   This property indicates the value of the policy's bill to country code.
+ </summary>
+ <value>
+   String containing the policy's bill to country code.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.LineDetail.Email">
+ <summary>
+   This property indicates the value of the policy's email.
+ </summary>
+ <value>
+   String containing the policy's email.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.LineDetail.Fax">
+ <summary>
+   This property indicates the value of the policy's fax.
+ </summary>
+ <value>
+   String containing the policy's fax.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.LineDetail.FaxExtension">
+ <summary>
+   This property indicates the value of the policy's fax extension.
+ </summary>
+ <value>
+   String containing the policy's fax extension.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.LineDetail.BillingCompany">
+ <summary>
+   This property indicates the value of the policy's billing company.
+ </summary>
+ <value>
+   String containing the policy's billing company.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.LineDetail.IssuingCompany">
+ <summary>
+   This property indicates the value of the policy's issuing company.
+ </summary>
+ <value>
+   String containing the policy's issuing company.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.LineDetail.IssuingState">
+ <summary>
+   This property indicates the value of the policy's issuing state.
+ </summary>
+ <value>
+   String containing the policy's issuing state.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="T:ASI.ScaleTraining.Data.Policy.Policy">
+ <summary>
+   This class implements the data layer for policies.
+ </summary>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Data.Policy.Policy.#ctor(System.Int32,System.Int32,System.String,System.String,System.DateTime,System.DateTime,System.String,System.String)">
+ <summary>
+   Parameterized constructor.
+ </summary>
+ <param name="iPolicyID">
+   Integer indicating the policy's policy ID value.
+ </param>
+ <param name="iLineID">
+   Integer indicating the policy's line ID value.
+ </param>
+ <param name="sLine">
+   String indicating the policy's line.
+ </param>
+ <param name="sStatusDescription">
+   String indicating the policy's status description.
+ </param>
+ <param name="dtEffective">
+   Date indicating the policy's effective date.
+ </param>
+ <param name="dtExpiration">
+   Date indicating the policy's expiration date.
+ </param>
+ <param name="sPolicyNumber">
+   String indicating the policy's policy number.
+ </param>
+ <param name="sPolicyDescription">
+   String indicating the policy's policy description.
+ </param>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Data.Policy.Policy.#ctor">
+ <summary>
+   Default constructor.
+ </summary>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.Policy.PolicyID">
+ <summary>
+   This property indicates the value of the policy's policy ID.
+ </summary>
+ <value>
+   Integer containing the policy's policy ID.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.Policy.LineID">
+ <summary>
+   This property indicates the value of the policy's line ID.
+ </summary>
+ <value>
+   Integer containing the policy's line ID.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.Policy.Line">
+ <summary>
+   This property indicates the value of the policy's line.
+ </summary>
+ <value>
+   String containing the policy's line.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.Policy.StatusDescription">
+ <summary>
+   This property indicates the value of the policy's status description.
+ </summary>
+ <value>
+   String containing the policy's status description.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.Policy.Effective">
+ <summary>
+   This property indicates the value of the policy's effective date.
+ </summary>
+ <value>
+   Date containing the policy's effective date.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.Policy.Expiration">
+ <summary>
+   This property indicates the value of the policy's expiration date.
+ </summary>
+ <value>
+   Date containing the policy's expiration date.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.Policy.PolicyNumber">
+ <summary>
+   This property indicates the value of the policy's policy number.
+ </summary>
+ <value>
+   String containing the policy's policy number.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.Policy.PolicyDescription">
+ <summary>
+   This property indicates the value of the policy's policy description.
+ </summary>
+ <value>
+   String containing the policy's policy description.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="T:ASI.ScaleTraining.Data.Policy.Policies">
+ <summary>
+   This class implements the data layer collection for policies.
+ </summary>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Data.Policy.Policies.#ctor">
+ <summary>
+   Default constructor.
+ </summary>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.Policies.ItemByID(System.Int32)">
+ <summary>
+   Exposes a policy specified by an ID.
+ </summary>
+ <param name="iPolicyID">
+   Integer indicating the ID of the desired policy.
+ </param>
+ <value>
+   Policy class containing the desired policy.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Data.Policy.Policies.RemoveByID(System.Int32)">
+ <summary>
+   Removes a policy specified by an ID.
+ </summary>
+ <param name="iPolicyID">
+   Integer indicating the ID of the desired policy.
+ </param>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="T:ASI.ScaleTraining.Data.Policy.PolicyDetail">
+ <summary>
+   This class implements the data layer for policy detail.
+ </summary>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Data.Policy.PolicyDetail.#ctor(System.Int32,System.Double,System.Double,System.Double,System.Double)">
+ <summary>
+   Parameterized constructor.
+ </summary>
+ <param name="iPolicyID">
+   Integer indicating the policy's policy ID value.
+ </param>
+ <param name="dBilledCommission">
+   Double indicating the policy's billed commission.
+ </param>
+ <param name="dBilledPremium">
+   Double indicating the policy's billed premium.
+ </param>
+ <param name="dAnnualizedCommission">
+   Double indicating the policy's annualized commission.
+ </param>
+ <param name="dAnnualizedPremium">
+   Double indicating the policy's annualized premium.
+ </param>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="M:ASI.ScaleTraining.Data.Policy.PolicyDetail.#ctor">
+ <summary>
+   Default constructor.
+ </summary>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.PolicyDetail.PolicyID">
+ <summary>
+   This property indicates the value of the policy's policy ID.
+ </summary>
+ <value>
+   Integer containing the policy's policy ID.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.PolicyDetail.BilledCommission">
+ <summary>
+   This property indicates the value of the policy's billed commission.
+ </summary>
+ <value>
+   Double containing the policy's billed commission.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.PolicyDetail.BilledPremium">
+ <summary>
+   This property indicates the value of the policy's billed premium.
+ </summary>
+ <value>
+   Double containing the policy's billed premium.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.PolicyDetail.AnnualizedCommission">
+ <summary>
+   This property indicates the value of the policy's annualized commission.
+ </summary>
+ <value>
+   Double containing the policy's annualized commission.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+<member name="P:ASI.ScaleTraining.Data.Policy.PolicyDetail.AnnualizedPremium">
+ <summary>
+   This property indicates the value of the policy's annualized premium.
+ </summary>
+ <value>
+   Double containing the policy's annualized premium.
+ </value>
+ <remarks>
+   None
+ </remarks>
+</member>
+</members>
+</doc>

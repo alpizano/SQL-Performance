@@ -1,0 +1,36 @@
+\\Dev-fs-1\technology\SourceBackup\SystemDev\SHeadric\PMG 72046\ASI.ScaleTraining.Data.Client\bin\Debug\ASI.ScaleTraining.Data.Client.dll
+\\Dev-fs-1\technology\SourceBackup\SystemDev\SHeadric\PMG 72046\ASI.ScaleTraining.Data.Client\bin\Debug\ASI.ScaleTraining.Data.Client.pdb
+\\Dev-fs-1\technology\SourceBackup\SystemDev\SHeadric\PMG 72046\ASI.ScaleTraining.Data.Client\bin\Debug\ASI.ScaleTraining.Data.Client.xml
+\\Dev-fs-1\technology\SourceBackup\SystemDev\SHeadric\PMG 72046\ASI.ScaleTraining.Data.Client\obj\Debug\ResolveAssemblyReference.cache
+\\Dev-fs-1\technology\SourceBackup\SystemDev\SHeadric\PMG 72046\ASI.ScaleTraining.Data.Client\obj\Debug\ASI.ScaleTraining.Data.Client.Resources.resources
+\\Dev-fs-1\technology\SourceBackup\SystemDev\SHeadric\PMG 72046\ASI.ScaleTraining.Data.Client\obj\Debug\ASI.ScaleTraining.Data.Client.vbproj.GenerateResource.Cache
+\\Dev-fs-1\technology\SourceBackup\SystemDev\SHeadric\PMG 72046\ASI.ScaleTraining.Data.Client\obj\Debug\ASI.ScaleTraining.Data.Client.dll
+\\Dev-fs-1\technology\SourceBackup\SystemDev\SHeadric\PMG 72046\ASI.ScaleTraining.Data.Client\obj\Debug\ASI.ScaleTraining.Data.Client.xml
+\\Dev-fs-1\technology\SourceBackup\SystemDev\SHeadric\PMG 72046\ASI.ScaleTraining.Data.Client\obj\Debug\ASI.ScaleTraining.Data.Client.pdb
+M:\PMG 72046\ASI.ScaleTraining.Data.Client\bin\Debug\ASI.ScaleTraining.Data.Client.dll
+M:\PMG 72046\ASI.ScaleTraining.Data.Client\bin\Debug\ASI.ScaleTraining.Data.Client.pdb
+M:\PMG 72046\ASI.ScaleTraining.Data.Client\bin\Debug\ASI.ScaleTraining.Data.Client.xml
+M:\PMG 72046\ASI.ScaleTraining.Data.Client\obj\Debug\ResolveAssemblyReference.cache
+M:\PMG 72046\ASI.ScaleTraining.Data.Client\obj\Debug\ASI.ScaleTraining.Data.Client.Resources.resources
+M:\PMG 72046\ASI.ScaleTraining.Data.Client\obj\Debug\ASI.ScaleTraining.Data.Client.vbproj.GenerateResource.Cache
+M:\PMG 72046\ASI.ScaleTraining.Data.Client\obj\Debug\ASI.ScaleTraining.Data.Client.dll
+M:\PMG 72046\ASI.ScaleTraining.Data.Client\obj\Debug\ASI.ScaleTraining.Data.Client.xml
+M:\PMG 72046\ASI.ScaleTraining.Data.Client\obj\Debug\ASI.ScaleTraining.Data.Client.pdb
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.Data.Client\bin\Debug\ASI.ScaleTraining.Data.Client.dll
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.Data.Client\bin\Debug\ASI.ScaleTraining.Data.Client.pdb
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.Data.Client\bin\Debug\ASI.ScaleTraining.Data.Client.xml
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.Data.Client\obj\Debug\ASI.ScaleTraining.Data.Client.Resources.resources
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.Data.Client\obj\Debug\ASI.ScaleTraining.Data.Client.vbproj.GenerateResource.Cache
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.Data.Client\obj\Debug\ASI.ScaleTraining.Data.Client.dll
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.Data.Client\obj\Debug\ASI.ScaleTraining.Data.Client.xml
+C:\Users\lcahan\Desktop\Scale Training\ASI.ScaleTraining.Data.Client\obj\Debug\ASI.ScaleTraining.Data.Client.pdb
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.Data.Client\bin\Debug\ASI.ScaleTraining.Data.Client.dll
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.Data.Client\bin\Debug\ASI.ScaleTraining.Data.Client.pdb
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.Data.Client\bin\Debug\ASI.ScaleTraining.Data.Client.xml
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.Data.Client\obj\Debug\ASI.ScaleTraining.Data.Client.Resources.resources
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.Data.Client\obj\Debug\ASI.ScaleTraining.Data.Client.vbproj.GenerateResource.cache
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.Data.Client\obj\Debug\ASI.ScaleTraining.Data.Client.vbproj.CoreCompileInputs.cache
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.Data.Client\obj\Debug\ASI.ScaleTraining.Data.Client.dll
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.Data.Client\obj\Debug\ASI.ScaleTraining.Data.Client.xml
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.Data.Client\obj\Debug\ASI.ScaleTraining.Data.Client.pdb
+C:\Users\apizano\source\repos\SQLPerf\ASI.ScaleTraining.Data.Client\obj\Debug\ASI.ScaleTraining.Data.Client.vbprojAssemblyReference.cache
